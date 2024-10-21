@@ -1,0 +1,632 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #0f0509;
+}
+
+img {
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-radius: 35px;
+}
+
+.section-container {
+    padding: 130px 0px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a0307;
+}
+
+.column-container {
+    flex-direction: column;
+    color: #3771dd;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0f0509;;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+li {
+    margin: 5px 15px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 50px 0;
+    max-width: 500px;
+}
+
+
+
+
+.button-direct, .motivational-quote, footer {
+    background-color: #a83d85;
+}
+
+.knowledge-section, .contact-section {
+    background-color: #fff4f5;
+}
+
+
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    box-shadow: #420b2035 0px 10px 6px -1px, #5a112d25 0px 2px 4px -1px;
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    background-color: rgb(10, 10, 10);
+}
+
+.nav-container {
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.nav-bar a:not(.button-direct) {
+    padding: 10px 13px;
+}
+
+.button-direct {
+    color: rgb(241, 237, 240);
+    text-align: center;
+    transition: background-color, border, 0.3s;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+#bar-menu {
+    display: none;
+}
+
+
+
+.presentation-container {
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.text-presentation {
+    width: 500px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: #db9dd1;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.description-text {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.image-presentation {
+    width: 400px;
+}
+
+
+.knowledge-cards {
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.language-card {
+    text-align: center;
+    width: 265px;
+    height: 225px;
+    padding: 40px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(252, 204, 239);
+    border: 1px solid #f8cfcc ;
+    transition: border-color 0.2s;
+
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px
+}
+
+.language-card .fa-brands {
+    font-size: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects-container {
+    max-width: 1054px;
+}
+
+.projects-cards {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.projects-cards a {
+    text-align: center;
+    padding: 17px;
+    width: 330px;
+    margin: 1%;
+    border-radius: 10px;
+    background-color: rgb(202, 139, 183);
+    border: 1px solid #f8cfcc ;
+    font-size: 20px;
+}
+
+figcaption {
+    margin: 10px;
+}
+
+
+
+
+.contact-card {
+    border-radius: 15px;
+    background-color: rgb(230, 199, 209);
+    width: 1100px;
+    padding: 100px 60px;
+    border: 1px solid #f8cfcc ;
+    align-items: start;
+}
+
+.social-media, .form-contact {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.contact-description {
+    text-align: left;
+    max-width: 100%;
+}
+
+.contact-bar-column a {
+    padding: 2px 10px 2px 5px;
+    width: fit-content;
+    justify-content: flex-start;
+}
+
+.icon {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    color: #eb5bdf;
+    margin-right: 7px;
+    transition: background-color 0.2s;
+}
+
+.fa-instagram, .fa-linkedin {
+    padding: 8px 10px ;
+}
+
+
+
+input, textarea {
+    width: 100%;
+}
+
+input, textarea, button {
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    height: 40px;
+    background-color: #eeeff2;
+    padding: 15px 20px;
+    margin: 10px 0;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #325BBC;
+}
+
+label {
+    font-weight: 700;
+}
+
+.lastname, .name {
+    width: 48%;
+}
+
+.name-container {
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+input, label {
+    font-size: 18px;
+}
+
+
+
+.name, .lastname, .message-container, .email-container {
+    position: relative;
+}
+
+.fa-regular {
+    position: absolute;
+    top: 43px;
+    right: 15px;
+    font-size: 17px;
+    opacity: 0;
+}
+
+.message-container .fa-regular {
+    top: 150px;
+}
+
+.fa-circle-xmark {
+    color: red;
+}
+
+.fa-circle-check {
+    color: green;
+}
+
+
+footer {
+    color: white;
+    padding: 70px 40px;
+}
+
+.contact-bar-footer {
+    margin: 40px 0;
+}
+
+.contact-bar-footer li {
+    margin: 0 5px;
+}
+
+
+
+.is-hover:hover {
+    color: #5ea1ee;
+}
+
+.language-card:hover, .project-card:hover {
+    border-color: #5ea1ee;
+}
+
+a:hover .icon, .button-direct:hover {
+    background-color: #5ea1ee;
+    color: white;
+}
+
+
+
+.focus-outline {
+    outline: none;
+}
+
+.is-focus, .is-focus-footer, .icon-footer {
+    transition: border-color, 0.2s;
+}
+
+.is-focus:focus {
+    box-shadow: 0px 0px 10px 1px #5ea1ee;
+    border-color: #5ea1ee;
+}
+
+.is-focus-footer:focus {
+    box-shadow: -1px 0px 7px 1px white
+}
+
+.contact-bar-footer a:focus .icon-footer {
+    box-shadow: -1px 0px 7px 1px white
+}
+
+
+
+.button-direct:active {
+    background-color: #325BBC;
+}
+
+
+
+.valid-container:valid + .fa-circle-check {
+    opacity: 1;
+}
+
+input:valid, textarea:valid {
+    border: 1px solid rgb(105, 171, 6);
+}
+
+input:valid:focus, textarea:valid:focus {
+    border: 1px solid rgb(105, 171, 6);
+    box-shadow: 0px 0px 10px 1px rgb(105, 171, 6);
+}
+
+
+
+.invalid-container:invalid + .fa-circle-xmark {
+    opacity: 1;
+}
+
+input:not(:placeholder-shown):invalid {
+    border: 1px solid red;
+}
+
+input:invalid:not(:placeholder-shown):focus {
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px 1px red;
+}
+
+
+
+@media (max-width: 1100px) {
+
+    .presentation {
+        width: 95%;
+    }
+    
+    .presentation-container {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .button-projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-presentation {
+        margin-top: 40px;
+    }
+
+    .projects-cards > a {
+        width: 31%;
+    }
+
+
+    .projects-container {
+        width: 100%;
+    }
+    
+    
+    .knowledge-cards {
+        width: 95%;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .projects-cards > a {
+        width: 48%;
+    }
+
+    .contact-section {
+        padding: 0;
+    }
+    
+    .contact-card {
+        border-radius: 0px;
+        border: none;
+        flex-direction: column;
+        padding: 150px 30px;
+    }
+
+    .contact-card > div {
+        width: 100%;
+    }
+
+    .contact-bar-column {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 7px;
+        justify-content: space-between;
+    }
+
+    .contact-bar-column > li {
+        width: 45%;
+        padding: 0;
+    }
+
+    .social-media {
+        margin-bottom: 50px;
+    }
+
+    
+    .nav-top {
+        display: none;
+    }
+
+    #bar-menu {
+        display: block;
+        font-size: 2em;
+        padding-right: 50px;
+    }
+}
+
+
+@media (max-width: 610px){
+    
+    .contact-bar-column {
+        flex-direction: column;
+    }
+    
+    .contact-bar-column > li {
+        width: 100%;
+    } 
+
+    .knowledge-card {
+        width: 50%;
+    }
+
+    .language-card .fa-brands {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 570px) {
+    .language-card {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+
+
+@media (max-width: 550px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .text-presentation {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .image-presentation {
+        width: 100%;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    .nav-bot {
+        flex-wrap: wrap;
+    }
+
+    .projects-cards > a {
+        width: 100%;
+    }
+
+    .language-card .fa-brands {
+        font-size: 4em;
+    }
+
+}
+
+
+
+@media (max-width: 500px) {
+    #luffy-quote {
+        font-size: 20px;
+    }
+
+    form div {
+        flex-direction: column;
+    }
+
+    .lastname, .name {
+        width: 100%;
+    }
+
+    .contact-card {
+        padding: 70px 10px;
+    }
+} 
+
+
+
+
+@media (max-width: 450px) {
+
+    .fa-brands:not(a > i):not(li > i) {
+        font-size: 3.3em;
+    }
+
+    .language-card {
+        width: 43%;
+        height: 40%;
+        margin: 6px;
+    }
+
+    h4 {
+        font: 15px;
+    }
+
+    .language-card .fa-brands {
+        font-size: 3em;
+    }
+
+}
+
+
+
+
+@media (max-width: 345px) {
+
+    .contact-bar {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .language-card {
+        width: 70%;
+    }
+
+    .header-container {
+        height: 60px;
+    }
+
+    #bar-menu {
+        font-size: 1.5em;
+    }
+
+}
